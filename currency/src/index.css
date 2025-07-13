@@ -1,0 +1,56 @@
+ 
+body{
+  margin: 0;
+  font-family: sans-serif;
+}
+.container{
+  width: 600px;
+  height: 400px;
+  padding: 22px;
+  border-radius: 11px;
+  box-shadow: 4px 4px 4px 4px silver;
+  margin: auto;
+  margin-top: 8%;
+}
+.select{
+display: flex;
+justify-content: center;
+gap: 27px;
+margin: auto;
+border-radius: 2px;
+height: 200px;
+}
+.select select{
+  width: 200px;
+  padding: 4px;
+  font-size: 16px;
+  height: 20%;
+} 
+
+.amountcontainer input{
+  padding: 4px;
+  font-size: 16px;
+  border-radius: 3px;
+  margin-top: 4px;
+  width: 40%;
+  height: 30px;
+
+}
+.amountcontainer{
+  display: flex;
+  gap: 9px;
+  justify-content: center;
+  align-items: center;
+}
+.convertbtn{
+  margin-top: 5%;
+  text-align: center;
+  width: 100%;
+}
+.convertbtn button{
+  padding: 22px 22px;
+  border-radius: 12px;
+  background-color: black;
+  color: white;
+  font-size: 16px;
+}
